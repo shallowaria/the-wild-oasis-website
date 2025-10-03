@@ -26,12 +26,7 @@ export default function Navigation() {
             href="/account"
             className="hover:text-accent-400 transition-colors text-accent-600"
           >
-            <div className="flex items-center gap-5">
-              <div className="w-10 h-10">
-                <Image src="/jinhsi" alt="Avatar" className="rounded-full" />
-              </div>
-              <span>Guest area</span>
-            </div>
+            Guest Area
           </Link>
         </li>
       </ul>

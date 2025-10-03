@@ -12,10 +12,7 @@ function ReservationForm({ cabin }) {
       <div className="bg-primary-800 text-primary-300 px-16 py-2 flex justify-between items-center">
         <p>Logged in as</p>
 
-        <div className="flex gap-4 items-center">
-          <Image src="/jinhsi" className="rounded-full h-8 w-8" alt="avatar" />
-          <p>Kayblis</p>
-        </div>
+        <p className="text-accent-400">Kayblis</p>
       </div>
 
       <form className="bg-primary-900 py-10 px-16 text-lg flex gap-5 flex-col">
