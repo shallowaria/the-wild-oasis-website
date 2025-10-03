@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { useReservation } from "./ReservationContext";
-import jinhsi from "@/public/jinhsi.png";
 
 function ReservationForm({ cabin }) {
   const { range } = useReservation();
@@ -14,7 +13,7 @@ function ReservationForm({ cabin }) {
         <p>Logged in as</p>
 
         <div className="flex gap-4 items-center">
-          <Image src={jinhsi} className="rounded-full h-8 w-8" alt="avatar" />
+          <Image src="/jinhsi" className="rounded-full h-8 w-8" alt="avatar" />
           <p>Kayblis</p>
         </div>
       </div>
