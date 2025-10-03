@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import jinhsi from "@/public/Jinhsi.png";
+import jinhsi from "../../public/jinhsi.png";
 
 export default function Navigation() {
   return (

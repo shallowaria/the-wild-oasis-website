@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useReservation } from "./ReservationContext";
-import jinhsi from "@/public/jinhsi.png";
+import jinhsi from "../../public/jinhsi.png";
 
 function ReservationForm({ cabin }) {
   const { range } = useReservation();
